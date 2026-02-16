@@ -240,6 +240,27 @@ MIT License — Use freely in your projects. See [LICENSE](./LICENSE)
 
 ---
 
+## 🔐 Security & Compliance Rules
+
+> **NEW:** Comprehensive security guidelines are now integrated!
+
+This repository now includes complementary **[SECURITY-RULES.md](./SECURITY-RULES.md)** with 10 essential security & InfoSec rules covering:
+
+- **Secrets Management** — Zero hardcoded credentials
+- **Input Validation** — Prevent injection attacks  
+- **Authentication & Authorization** — OAuth2, MFA, RBAC
+- **Encryption** — TLS 1.3+, AES-256
+- **Logging & Audit** — Centralized, structured logging
+- **Compliance** — GDPR, SOC2, PCI-DSS
+- **Threat Modeling** — STRIDE analysis
+- **Security Testing** — SAST, DAST, pen testing
+- **Incident Response** — IRP, SIEM, breach notification
+- **Supply Chain** — SBOM, dependency verification
+
+**For secure development:** Use both **AI-RULES.md** (coding) + **SECURITY-RULES.md** (security) together for comprehensive governance.
+
+Read more: [SECURITY-RULES.md](./SECURITY-RULES.md)
+
 ## 🚀 Get Started Now
 
 1. **Clone as template:** [Use this template](https://github.com/flakeman/ai-coding-rules-template/generate)
