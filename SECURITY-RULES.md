@@ -2,7 +2,7 @@
 
 Comprehensive security rules for developers and AI agents covering secure development, secrets management, compliance, threat modeling, and incident response.
 
-> **Related:** See [AI RULES.md](./AI-RULES.md) for complementary coding best practices. Security rules should be integrated with coding standards for comprehensive development governance.
+> **Related:** See [AI RULES.md](./AI-RULES.md) for complementary coding best practices. Security rules should be integrated with coding standards for comprehensive development governance. and [CONTAINERIZATION_RULES.md](./CONTAINERIZATION_RULES.md) for infrastructure security guidelines
 
 ## 🔐 Rule 1: Secrets Management & Vault Integration
 
