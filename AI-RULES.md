@@ -151,6 +151,8 @@ Comprehensive system of 9 rules for effective AI-assisted development based on 2
 
 **Objective:** Scalability and service isolation.
 
+**Implementation Details:** См. [CONTAINERIZATION_RULES.md](./CONTAINERIZATION_RULES.md) для детальных правил микросервисной архитектуры, Docker, Kubernetes, deployment patterns и observability.
+
 **Steps:**
 1. In SDD: Bounded Contexts, API contracts, events
 2. Generate from service-template (layers, Docker)
