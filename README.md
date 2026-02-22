@@ -181,6 +181,32 @@ Based on **2025 industry best practices**:
 
 ---
 
+## ⚖️ Rule Priority Hierarchy
+
+**When rules conflict, follow this priority order:**
+
+1. **🔐 SECURITY-RULES.md** (Highest Priority)
+   - Security always comes first
+   - No exceptions for convenience or speed
+   - All coding and infrastructure decisions must comply with security requirements
+
+2. **🐳 CONTAINERIZATION_RULES.md** (Infrastructure Priority)
+   - Infrastructure and deployment standards
+   - Takes precedence over coding patterns when deployment is affected
+   - Must integrate security requirements from SECURITY-RULES
+
+3. **📋 AI-RULES.md** (Development Process Priority)
+   - Development workflow and coding standards
+   - Must comply with both security and infrastructure requirements
+   - Provides the framework for implementing secure, containerized applications
+
+**Example Conflict Resolution:**
+- If AI-RULES suggests a pattern that conflicts with SECURITY-RULES → Follow SECURITY-RULES
+- If CONTAINERIZATION_RULES requires a setup that conflicts with SECURITY-RULES → Modify containerization to meet security requirements
+- If AI-RULES and CONTAINERIZATION_RULES conflict → Follow CONTAINERIZATION_RULES for infrastructure, AI-RULES for application code
+
+---
+
 ## 🔗 Integration Examples
 
 ### With Cursor / VS Code
