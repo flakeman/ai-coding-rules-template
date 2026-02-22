@@ -2,6 +2,8 @@
 
 Comprehensive system of 9 rules for effective AI-assisted development based on 2025 best practices. Use these rules in every project by cloning this repository as a template.
 
+**Related:** Интегрируется с [CONTAINERIZATION_RULES.md](./CONTAINERIZATION_RULES.md) (Правило 1.1: Микросервисная архитектура) и [SECURITY-RULES.md](./SECURITY-RULES.md) для полного охвата разработки, безопасности и инфраструктуры.
+
 ---
 
 ## 🎯 Rule 1: Ответственность за ошибки
