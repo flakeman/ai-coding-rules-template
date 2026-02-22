@@ -1,6 +1,6 @@
 # AI Coding Rules Template 🚀
 
-**Universal guide for effective AI-assisted development** — 9 structured rules for developers and AI agents based on 2025 best practices. Use this repository as a **template for every new project**.
+**Universal guide for effective AI-assisted development** — 15 structured rules for developers and AI agents based on 2025 best practices. Use this repository as a **template for every new project**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-ai--coding--rules--template-blue?logo=github)](https://github.com/flakeman/ai-coding-rules-template)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
@@ -12,7 +12,7 @@
 
 ### For New Projects
 1. **Click "Use this template"** → Create your repository
-2. **Read [AI-RULES.md](./AI-RULES.md)** — All 9 rules with AI prompts
+2. **Read [AI-RULES.md](./AI-RULES.md)** — All 15 rules with AI prompts
 3. **Fill [docs/CONTEXT.md](./docs/CONTEXT.md)** — Your project architecture
 4. **Follow the workflow** — Plan → Code → Test → Verify → Commit
 
@@ -22,7 +22,7 @@
 
 ---
 
-## 🎯 The 9 Rules at a Glance
+## 🎯 The 15 Rules at a Glance
 
 | # | Rule | Goal | AI Prompt |
 |---|------|------|-----------|
@@ -34,7 +34,7 @@
 | 6 | **Git-гигиена** | Traceable commits | Commit at each stage with clear messages |
 | 7 | **Работа по SDD** | Architecture-first | Fill SDD-TEMPLATE.md before code |
 | 8 | **Формирование контекста** | Living documentation | Update CONTEXT.md after each stage |
-| 9 | **Микросервисы** | Scalable design | Bounded contexts, loose coupling, observability |
+| 15 | **Микросервисы** | Scalable design | Bounded contexts, loose coupling, observability |
 
 **Full details** → [AI-RULES.md](./AI-RULES.md)
 
@@ -44,7 +44,7 @@
 
 ```
 ai-coding-rules-template/
-├── AI-RULES.md              # ⭐ All 9 rules + AI prompts (START HERE)
+├── AI-RULES.md              # ⭐ All 15 rules + AI prompts (START HERE)
 ├── README.md                # This file
 │
 ├── docs/
@@ -95,7 +95,7 @@ ai-coding-rules-template/
 
 ### AI Agent Prompt Template
 ```
-You must follow 9 AI Coding Rules from:
+You must follow 15 AI Coding Rules from:
 https://github.com/flakeman/ai-coding-rules-template/blob/main/AI-RULES.md
 
 For this task:
@@ -114,7 +114,7 @@ For this task:
 ## 📚 Key Files
 
 ### [AI-RULES.md](./AI-RULES.md) — THE CORE
-Comprehensive guide to all 9 rules. Each rule includes:
+Comprehensive guide to all 15 rules. Each rule includes:
 - **Objective** - What the rule achieves
 - **Steps** - How to execute
 - **Success Criteria** - How to verify
@@ -144,7 +144,7 @@ Live project context — update after every stage:
 
 ### System Prompt
 ```
-You MUST follow 9 AI Coding Rules from:
+You MUST follow 15 AI Coding Rules from:
 https://github.com/flakeman/ai-coding-rules-template/blob/main/AI-RULES.md
 
 Core principles:
