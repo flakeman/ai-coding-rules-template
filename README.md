@@ -17,8 +17,7 @@
 4. **Follow the workflow** — Plan → Code → Test → Verify → Commit
 
 ### For Existing Teams
-- Copy `AI-RULES.md`, `docs/SDD-TEMPLATE.md`, `docs/CONTEXT.md`, `CONTAINERIZATION_RULES.md` to your repo
-- Reference in team documentation: "Follow rules from https://github.com/flakeman/ai-coding-rules-template"
+- Copy `AI-RULES.md`, `docs/SDD-TEMPLATE.md`, `docs/CONTEXT.md`, `CONTAINERIZATION_RULES.md`, `ANTHROPIC_TOOL_USE_RULES.md` to your repo- Reference in team documentation: "Follow rules from https://github.com/flakeman/ai-coding-rules-template"
 
 ---
 
